@@ -8,11 +8,29 @@
   </head>
   <body>
     <div class="flex w-full h-screen">
-      <div id="sidebar" class="bg-red-500 w-1/12"></div>
+      <div id="sidebar" class="bg-red-500 w-1/12">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Activites</a></li>
+          <li><a href="#">FAQ's</a></li>
+        </ul>
+      </div>
       <div class="bg-green-200 w-full">
         <h4 id="text">Our Last Born Sef</h4>
-        <button id="change">toggle</button>
-        <button class="change">change-it</button>
+        <svg
+          id="change"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          width="20"
+          height="20"
+        >
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
       </div>
     </div>
     <script src="index.js"></script>

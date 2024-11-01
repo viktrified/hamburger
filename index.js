@@ -1,8 +1,4 @@
-let text = document.getElementById("text");
-
-let button = document.getElementsByClassName("change");
-
-let button1 = document.querySelector("#change");
+let button = document.querySelector("#change");
 
 let sideBar = document.getElementById("sidebar");
 
@@ -18,4 +14,4 @@ const toggle = () => {
   }
 };
 
-button1.addEventListener("click", toggle);
+button.addEventListener("click", toggle);
